@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoidaLibrary", "GoidaLibrary\GoidaLibrary.csproj", "{8CAF4732-F9D5-4A47-B966-29EA670467F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goida", "Goida\Goida.csproj", "{D2607B7B-1C40-4791-813A-1469FA54F412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CAF4732-F9D5-4A47-B966-29EA670467F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAF4732-F9D5-4A47-B966-29EA670467F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAF4732-F9D5-4A47-B966-29EA670467F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAF4732-F9D5-4A47-B966-29EA670467F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2607B7B-1C40-4791-813A-1469FA54F412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2607B7B-1C40-4791-813A-1469FA54F412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2607B7B-1C40-4791-813A-1469FA54F412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2607B7B-1C40-4791-813A-1469FA54F412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

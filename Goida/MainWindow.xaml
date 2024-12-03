@@ -1,0 +1,121 @@
+<Window x:Class="Goida.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Goida.UserControls"
+        xmlns:userControls="clr-namespace:Goida.UserControls"
+            mc:Ignorable="d"
+        d:DesignHeight="450" d:DesignWidth="800"
+        Title="GOIDALIB">
+    <Grid>
+        <Grid x:Name="MainMenu">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".2*" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="#f5dcb7">
+                <Viewbox>
+                    <TextBlock Text="Book House" FontSize="50" FontFamily="David" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#66171f" FontWeight="Bold" />
+                </Viewbox>
+            </Grid>
+            <Grid Grid.Row="1" Background="#66171f">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Viewbox>
+                        <Button x:Name="btnManager" Content="Manager" MinWidth="130" MinHeight="70" MaxWidth="500" MaxHeight="330" FontSize="20" Foreground="#66171f" Background="#f5dcb7"
+                                FontWeight="UltraBlack" BorderBrush="AntiqueWhite" BorderThickness="3" Margin="0,10,0,10" Click="btnManager_Click" />
+                    </Viewbox>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Viewbox>
+                        <Button x:Name="btnWorker" Content="Worker" MinWidth="130" MinHeight="70" MaxWidth="500" MaxHeight="330" FontSize="20" Foreground="#66171f" Background="#f5dcb7"
+                                FontWeight="UltraBlack" BorderBrush="AntiqueWhite" BorderThickness="3" Margin="0,10,0,10" Click="btnWorker_Click" />
+                    </Viewbox>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Viewbox>
+                        <Button x:Name="btnExit" Content="Exit" MinWidth="130" MinHeight="70" MaxWidth="500" MaxHeight="330"
+                        FontWeight="UltraBlack" BorderBrush="AntiqueWhite" BorderThickness="3" Margin="0, 10, 0, 10" Click="btnExit_Click" Background="#f5dcb7" Foreground="#66171f" FontSize="20"/>
+                    </Viewbox>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid x:Name="managerGrid" Visibility="Collapsed">
+            <userControls:Manager x:Name="ManagerUsedControl"/>
+        </Grid>
+        <Grid x:Name="addBookGrid" Visibility="Collapsed">
+            <userControls:AddBook x:Name="AddBookUserControl"/>
+        </Grid>
+        <Grid x:Name="workerGrid" Visibility="Collapsed">
+            <userControls:Worker x:Name="WorkerUserControl"/>
+        </Grid>
+        <Grid x:Name="editBookGrid" Visibility="Collapsed">
+            <userControls:EditBook x:Name="EditBookUserControl"/>
+        </Grid>
+        <Grid x:Name="editBookGrid2" Visibility="Collapsed">
+            <userControls:EditBook2 x:Name="EditBookUserControl2"/>
+        </Grid>
+        <Grid x:Name="RemoveBookGrid" Visibility="Collapsed">
+            <userControls:RemoveBook x:Name="RemoveBookUserControl"/>
+        </Grid>
+        <Grid x:Name="ShowBooksGrid" Visibility="Collapsed">
+            <userControls:ShowBooks x:Name="ShowBooksUserControl"/>
+        </Grid>
+        <Grid x:Name="ShowAvailableItemsGrid" Visibility="Collapsed">
+            <userControls:ShowAvailableItems x:Name="ShowAvailableItemsUserControl"/>
+        </Grid>
+        <Grid x:Name="AddJournalGrid" Visibility="Collapsed">
+            <userControls:AddJournal x:Name="AddJournalGridUserControl"/>
+        </Grid>
+        <Grid x:Name="EditJournalGrid" Visibility="Collapsed">
+            <userControls:EditJournal x:Name="EditJournalUserControl"/>
+        </Grid>
+        <Grid x:Name="EditJournalGrid2" Visibility="Collapsed">
+            <userControls:EditJournal2 x:Name="EditJournalUserControl2"/>
+        </Grid>
+        <Grid x:Name="RemoveJournalGrid" Visibility="Collapsed">
+            <userControls:RemoveJournal x:Name="RemoveJournalUserControl"/>
+        </Grid>
+        <Grid x:Name="ShowJournalsGrid" Visibility="Collapsed">
+            <userControls:ShowJournal x:Name="ShowJournalsUserControl"/>
+        </Grid>
+        <Grid x:Name="AddBookmarkGrid" Visibility="Collapsed">
+            <userControls:AddBookmark x:Name="AddBookmarkGridUserControl"/>
+        </Grid>
+        <Grid x:Name="EditBookmarkGrid" Visibility="Collapsed">
+            <userControls:EditBookmark x:Name="EditBookmarkUserControl"/>
+        </Grid>
+        <Grid x:Name="EditBookmarkGrid2" Visibility="Collapsed">
+            <userControls:EditBookmark2 x:Name="EditBookmarkUserControl2"/>
+        </Grid>
+        <Grid x:Name="RemoveBookmarkGrid" Visibility="Collapsed">
+            <userControls:RemoveBookmark x:Name="RemoveBookmarkUserControl"/>
+        </Grid>
+        <Grid x:Name="ShowBookmarksGrid" Visibility="Collapsed">
+            <userControls:ShowBookmarks x:Name="ShowBookmarksUserControl"/>
+        </Grid>
+        <Grid x:Name="SellItemsGrid" Visibility="Collapsed">
+            <userControls:SellItems x:Name="SellItemsControl"/>
+        </Grid>
+        <Grid x:Name="ReceiptsGrid" Visibility="Collapsed">
+            <userControls:Receipts x:Name="ReceiptsControl"/>
+        </Grid>
+        <Grid x:Name="AddCustomerGrid" Visibility="Collapsed">
+            <userControls:AddCustomer x:Name="AddCustomerControl"/>
+        </Grid>
+        <Grid x:Name="RemoveCustomerGrid" Visibility="Collapsed">
+            <userControls:RemoveCustomer x:Name="RemoveCustomerControl"/>
+        </Grid>
+        <Grid x:Name="ManageExceptionGrid" Visibility="Collapsed">
+            <userControls:ManageException x:Name="ManageExceptionControl"/>
+        </Grid>
+        <Grid x:Name="ShowClubCustomersGrid" Visibility="Collapsed">
+            <userControls:ShowClubCustomers x:Name="ShowClubCustomersControl"/>
+        </Grid>
+    </Grid>
+</Window>

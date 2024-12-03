@@ -1,0 +1,4 @@
+Exception: GoidaLibrary.IllegalIsbnException: The ISBN must be exaclty 6 digits!
+   at GoidaLibrary.AbstractItem.IsIsbnValid(String isbn) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\GoidaLibrary\AbstractItem.cs:line 55
+   at Goida.UserControls.AddBook.btnEnter_Click(Object sender, RoutedEventArgs e) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\Goida\UserControls\AddBook.xaml.cs:line 28 
+Date: 12/3/2024 9:29:56 AM

@@ -1,0 +1,4 @@
+Exception: System.ArgumentNullException: Value cannot be null. (Parameter 'One or more fields are not set!')
+   at GoidaLibrary.Bookmark.IsFormValid() in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\GoidaLibrary\Bookmark.cs:line 31
+   at Goida.UserControls.AddBookmark.btnEnter_Click(Object sender, RoutedEventArgs e) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\Goida\UserControls\AddBookmark.xaml.cs:line 24 
+Date: 11/29/2024 1:39:27 PM

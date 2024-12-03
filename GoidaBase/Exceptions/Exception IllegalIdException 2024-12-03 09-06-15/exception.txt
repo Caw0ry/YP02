@@ -1,0 +1,4 @@
+Exception: GoidaLibrary.IllegalIdException: ID must be exaclty 9 digits!
+   at GoidaLibrary.Customer.IsIdValid(String customerId) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\GoidaLibrary\Customer.cs:line 45
+   at Goida.UserControls.AddCustomer.btnInput_Click(Object sender, RoutedEventArgs e) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\Goida\UserControls\AddCustomer.xaml.cs:line 34 
+Date: 12/3/2024 9:06:15 AM

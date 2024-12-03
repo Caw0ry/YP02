@@ -1,0 +1,4 @@
+Exception: System.FormatException: The price must be a positive number and no more than 9999!
+   at GoidaLibrary.AbstractItem.IsPriceDouble(String price) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\GoidaLibrary\AbstractItem.cs:line 39
+   at Goida.UserControls.AddBookmark.btnEnter_Click(Object sender, RoutedEventArgs e) in C:\Users\vissa\OneDrive\Desktop\practica2\GoidaLibrary\Goida\UserControls\AddBookmark.xaml.cs:line 26 
+Date: 11/29/2024 1:52:28 PM
